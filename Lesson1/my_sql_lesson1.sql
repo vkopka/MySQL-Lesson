@@ -1,4 +1,4 @@
-MySQL, MySQL Workbench
+--MySQL, MySQL Workbench
 
 show databases;
 
@@ -24,11 +24,11 @@ values (null, 'Max', '20', 'male');
 select * from users limit 100;
 select * from users limit 100 offset 100;
 select * from users limit 100 offset 200;
-...
+-- ...
 -- comment
 select * from users order by age desc limit 1; -- max age template
 
--- agregate functions
+-- aggregate functions
 -- min, max, avg, count, sum
 
 select   max(age) as max_age, gender
