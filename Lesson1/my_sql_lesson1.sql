@@ -41,7 +41,7 @@ update users set name = 'Kostya' where id = 6;
 delete from users where id = 6;
 
 
--- 91.201.233.14  сервер Okten
+-- 91.201.233.14  сервер Okten   vkopka lokijuhy
 
 -- ДЗ
 show databases;
